@@ -1,0 +1,36 @@
+# OS Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary & Runtime Redis Files
+*.rdb
+*.aof
+nodes.conf
+*.log
+
+# TLS / Cryptographic Keys (in case generated on host)
+*.key
+*.pem
+*.crt
+*.csr
+
+# Personal Scratchpads & Activity Logs (Keep repo clean)
+*activity_log.md
+presentation.md
+redis_lab_guide.md
+*_concepts_guide.md
+*MASTER_GUIDE.md
+CLUSTER_VS_SENTINEL_SWITCHING_GUIDE.md
+
